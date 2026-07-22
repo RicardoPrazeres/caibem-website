@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Espírita CAIBEM | Casa de Assistência à Infância Dr. Bezerra de Menezes</title>
+  <meta name="description" content="Relatório visual de atividades, melhorias estruturais, reformas e segurança da Casa Espírita CAIBEM (2025/2026).">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <img src="public/media/image3.png" alt="CAIBEM Logo" />
+        <span>CAIBEM</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#atividades" class="nav-link">Atividades 2025</a></li>
+        <li><a href="#reformas" class="nav-link">Obras & Segurança 2026</a></li>
+        <li><a href="#bingo" class="nav-link">Bingo Beneficente</a></li>
+        <li><a href="#gratidao" class="nav-link">Gratidão & Apoio</a></li>
+      </ul>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button id="theme-toggle" class="theme-toggle-btn" title="Alternar tema">
+          <i id="theme-icon" class="fa-solid fa-moon"></i>
+        </button>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" title="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <a href="#gratidao" class="btn-primary desktop-only">
+          <i class="fa-solid fa-heart"></i> Apoiar a Casa
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="hero-badge">
+          <i class="fa-solid fa-hands-holding-heart"></i> Casa de Assistência à Infância Dr. Bezerra de Menezes
+        </span>
+        <h1 class="hero-title">
+          Relatório de Evolução, Projetos e Obras da Casa CAIBEM
+        </h1>
+        <p class="hero-subtitle">
+          Acompanhe nossas ações comunitárias de 2025 e o plano de reforma, renovação e reforço da segurança estrutural em 2026.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#atividades" class="btn-primary">
+            <i class="fa-solid fa-compass"></i> Ver Atividades 2025
+          </a>
+          <a href="#reformas" class="btn-secondary">
+            <i class="fa-solid fa-hammer"></i> Relatório de Obras 2026
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities Section (2025) -->
+  <section id="atividades" class="activities-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ano 2025</span>
+        <h2 class="section-title">Atividades e Ações Comunitárias</h2>
+        <p class="section-desc">
+          Conheça as principais iniciativas de ensino, fraternidade, evangelização e assistência aos irmãos necessitados.
+        </p>
+      </div>
+
+      <div id="activities-grid" class="activities-grid"></div>
+    </div>
+  </section>
+
+  <!-- Reforms & Security Section (2025/2026) -->
+  <section id="reformas" class="reforms-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Evolução & Superação</span>
+        <h2 class="section-title">Obras, Reformas e Reforço de Segurança</h2>
+        <p class="section-desc">
+          Acompanhe como superamos intempéries climáticas e invasões com fé, união e melhorias estruturais profundas na nossa Casa.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="timeline-nav">
+        <button class="tab-btn active" data-filter="all">Todas as Fases</button>
+        <button class="tab-btn" data-filter="desafio">Desafios Enfrentados</button>
+        <button class="tab-btn" data-filter="obras">Reformas & Pintura</button>
+        <button class="tab-btn" data-filter="seguranca">Reforço de Segurança</button>
+        <button class="tab-btn" data-filter="sucesso">Resultados Concluídos</button>
+      </div>
+
+      <!-- Timeline Container -->
+      <div id="timeline-container" class="timeline-wrapper"></div>
+    </div>
+  </section>
+
+  <!-- Bingo Beneficente Container -->
+  <section id="bingo" class="container">
+    <div id="bingo-container"></div>
+  </section>
+
+
+  <!-- Gratitude & Donation Banner -->
+  <section id="gratidao" class="gratitude-banner">
+    <div class="container">
+      <div class="gratitude-box">
+        <div style="font-size: 3rem; margin-bottom: 1rem;"><i class="fa-solid fa-hands-praying"></i></div>
+        <h2>Nossa Profunda Gratidão</h2>
+        <p>
+          "Agradecemos profundamente a todos os voluntários, doadores e colaboradores que uniram esforços para tornar este trabalho uma realidade. Cada contribuição representa um gesto de amor."
+        </p>
+        <p style="font-size: 1rem; font-weight: 700; opacity: 0.95;">
+          Casa Espírita CAIBEM | Casa de Assistência à Infância Dr. Bezerra de Menezes
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <img src="public/media/image3.png" alt="CAIBEM Logo" />
+            <span>Casa Espírita CAIBEM</span>
+          </div>
+          <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+            Casa de Assistência à Infância Dr. Bezerra de Menezes.<br>
+            Trabalho voluntário voltado à caridade, ao estudo e à acolhida espiritual e social.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#atividades">Atividades 2025</a></li>
+            <li><a href="#reformas">Reformas & Segurança</a></li>
+            <li><a href="#bingo">Bingo Beneficente</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Institucional</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-heart" style="color: var(--primary-600); margin-right: 6px;"></i> Assistência Social</li>
+            <li><i class="fa-solid fa-book-open" style="color: var(--primary-600); margin-right: 6px;"></i> Evangelização</li>
+            <li><i class="fa-solid fa-shield-halved" style="color: var(--primary-600); margin-right: 6px;"></i> Segurança da Casa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 Casa Espírita CAIBEM. Desenvolvido a partir da Apresentação Institucional.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="modal-container">
+      <button id="modal-close" class="modal-close-btn" title="Fechar"><i class="fa-solid fa-xmark"></i></button>
+      <button id="modal-prev" class="modal-nav-btn modal-nav-prev" title="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      <button id="modal-next" class="modal-nav-btn modal-nav-next" title="Próxima"><i class="fa-solid fa-chevron-right"></i></button>
+      
+      <img id="modal-img" class="modal-body-img" src="" alt="Ampliado" />
+      
+      <div class="modal-footer-caption">
+        <h4 id="modal-title" class="modal-title"></h4>
+        <p id="modal-desc" class="modal-desc"></p>
+        <span id="modal-counter" style="display: block; margin-top: 6px; font-size: 0.8rem; color: #94a3b8; font-weight: 600;"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Script -->
+  <script src="js/data.js"></script>
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
