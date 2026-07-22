@@ -698,6 +698,128 @@ button {
   cursor: pointer;
 }
 
+/* Schedule & Programação Section */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.schedule-card {
+  padding: 2.25rem;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.schedule-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  background: rgba(20, 184, 166, 0.15);
+  color: var(--primary-600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.schedule-icon.heart {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--accent-gold);
+}
+
+.schedule-card-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.schedule-card-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.schedule-item {
+  background: var(--bg-card);
+  padding: 1.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.schedule-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary-500);
+  box-shadow: var(--shadow-md);
+}
+
+.schedule-item-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.schedule-item-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.schedule-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+.schedule-badge.online {
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--info-500);
+}
+
+.schedule-badge.presencial {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--success-500);
+}
+
+.schedule-badge.cafe {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--accent-gold);
+}
+
+.schedule-item-time {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 /* All Slides Deck Grid */
 .slides-grid {
   display: grid;
