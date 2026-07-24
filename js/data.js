@@ -29,7 +29,7 @@ window.CAIBEM_DATA = {
       id: "cine-pipoca",
       title: "Cine Pipoca",
       category: "Integração Infantil",
-      description: "Sessões de cinema com pipoca para as crianças da comunidade, promovendo momentos de alegria, convivência e aprendizado de valores.",
+      description: "Sessões de cinema com pipoca para as crianças da comunidade, promovendo momentos de alegria, convivência, aprendizado de valores e arrecadação de fundos para melhorias e reformas da casa.",
       images: ["public/media/image7.jpeg", "public/media/image8.jpeg", "public/media/image9.png"],
       badge: "Comunidade"
     },
