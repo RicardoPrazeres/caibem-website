@@ -51,7 +51,7 @@ window.CAIBEM_DATA = {
     },
     {
       id: "almoco-moradores",
-      title: "Almoço para Moradores de Rua",
+      title: "Almoço para Pessoas em Situação de Rua",
       category: "Ação Social",
       description: "Preparo e distribuição de refeições nutritivas com carinho, fraternidade e dignidade para pessoas em situação de rua.",
       images: ["public/media/image14.jpeg", "public/media/image15.jpeg", "public/media/image16.jpeg"],
@@ -193,7 +193,7 @@ window.CAIBEM_DATA = {
     { slide: 3, title: "Cine Pipoca", desc: "Cinema comunitário infantil.", imgs: ["public/media/image7.jpeg", "public/media/image8.jpeg", "public/media/image9.png"] },
     { slide: 4, title: "Evangelização Espírita Infantil", desc: "Aulas e encontros para crianças.", imgs: ["public/media/image10.jpeg", "public/media/image11.jpeg"] },
     { slide: 5, title: "Confraternização CAIBEM", desc: "União entre voluntários e comunidade.", imgs: ["public/media/image12.jpeg", "public/media/image13.jpeg"] },
-    { slide: 6, title: "Almoço para Moradores de Rua", desc: "Distribuição de marmitas e fraternidade.", imgs: ["public/media/image14.jpeg", "public/media/image15.jpeg", "public/media/image16.jpeg"] },
+    { slide: 6, title: "Almoço para Pessoas em Situação de Rua", desc: "Distribuição de marmitas e fraternidade.", imgs: ["public/media/image14.jpeg", "public/media/image15.jpeg", "public/media/image16.jpeg"] },
     { slide: 7, title: "Obras e Melhorias na Casa 2026", desc: "Relatório de reformas e segurança.", imgs: ["public/media/image1.png", "public/media/image2.png"] },
     { slide: 8, title: "Antes da Reforma: Vidros e Pintura do Salão", desc: "Vidros quebrados em consequência de tempestade e salão sem pintura.", imgs: ["public/media/image18.jpeg", "public/media/image19.jpeg", "public/media/image20.jpeg"] },
     { slide: 9, title: "Durante a Reforma (Parte 1)", desc: "Preparação das paredes e lixamento.", imgs: ["public/media/image21.jpeg", "public/media/image22.jpeg", "public/media/image23.jpeg"] },
